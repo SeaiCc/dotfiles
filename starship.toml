@@ -1,0 +1,13 @@
+add_newline = false
+format = """$character$directory"""
+
+[character]
+success_symbol = "[➜](bold green) "
+error_symbol = "[➜](bold red) "
+
+[directory]
+truncation_length = 1
+truncate_to_repo = false
+
+[line_break]
+disabled = true
