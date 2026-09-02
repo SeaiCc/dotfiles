@@ -19,7 +19,11 @@ vim.opt.startofline = false
 
 vim.opt.conceallevel = 2
 
-vim.wo.wrap = false
+vim.opt.wrap = true
+vim.opt.updatetime = 250
+
+-- 打开文件时默认展开所有折叠
+vim.opt.foldlevelstart = 99
 
 -- Tab related options
 vim.opt.softtabstop = 2

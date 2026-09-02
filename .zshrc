@@ -53,3 +53,6 @@ alias cc='export USE_BUILTIN_RIPGREP=false && node /home/cuitao/gitSourceCode/AG
 # starship
 eval "$(starship init zsh)"
 bindkey -e
+
+# start web version of xmind (mind-map)
+alias xmind='cd ~/gitSourceCode/Web/mind-map/web/ && npm run serve'
